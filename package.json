@@ -1,0 +1,14 @@
+{
+  "name": "hobot_tele_anri",
+  "version": "1.0.2",
+  "description": "testing project",
+  "scripts": {
+    "start": "nodemon -L --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "build": "rm -rf dist && tsc -p . --lib es2017 --outDir dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hobot": "0.0.4"
+  }
+}
